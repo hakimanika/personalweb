@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="spots.html">Spots</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>What I Can Teach You</h2>
+        <p>How to bake bread: it is very hard in my opinion, but you do not need that many ingredients. It mainly takes flour, salt, yeast, and water</p>
+        <img src="bread.jpg" alt="Freshly Baked Bread" height="400" width="500">
+        <section>
+        <h3>Audio: Baking is finished!</h3>
+        <audio controls>
+            <source src="baking.mp3" type="audio/mpeg">
+            
+        </audio>
+    </section>
+    <div>
+        <h3>Interested in more info?</h3>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label>Do you want to learn to actually bake bread?</label><br>
+            <input type="radio" id="yes" name="baking_interest" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="baking_interest" value="no">
+            <label for="no">No</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Anika Hakim</p>
+    </footer>
+</body>
+
+</html>
